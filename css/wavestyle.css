@@ -38,6 +38,7 @@ p {
     color: #D7D5C1;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 a {
@@ -53,6 +54,7 @@ img {
 
 .about-card-bg {
     background-image: linear-gradient(to right top, #74797a, #5b6b70, #435c69, #2e4c62, #1e3c5b);
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
 }
 
 
@@ -64,6 +66,8 @@ img {
 }
 .project-card {
     background-image: linear-gradient(to right top, #74797a, #5b6b70, #435c69, #2e4c62, #1e3c5b);
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
+
 }
 
 
@@ -96,6 +100,7 @@ img {
     
     .navbar-brand img {
         border: 5px solid #1E3C5B;
+        box-shadow: 8px 9px 14px 0px rgba(30,60,91,0.84);
     }
 
     #content-wrapper {
@@ -120,7 +125,6 @@ ul {
     animation: spin 25s linear infinite;
     margin: auto;
     margin-top: 10px;
-    border-radius: 50%;
     position: relative;
     cursor: pointer;
 }
@@ -170,6 +174,7 @@ ul {
     z-index: 2;
     margin: 0 0;
     border: 2px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
     padding: 5px 2px;
     font-size: 1.2em;
     letter-spacing: 2.5px;
@@ -215,4 +220,24 @@ ul {
 .toolkit-card {
     background-image: linear-gradient(to right top, #74797a, #5b6b70, #435c69, #2e4c62, #1e3c5b);
     height: 350px;
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
+}
+
+
+
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #D7D5C1;
+    background-image: linear-gradient(to right top, #74797a, #5b6b70, #435c69, #2e4c62, #1e3c5b);
+    border-radius: 100px;
+    font-size: 24px;
+}
+
+.test {
+    margin-left: 280px;
 }
