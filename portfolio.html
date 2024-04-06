@@ -65,15 +65,16 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h1 class="kaushan-script glow" style="font-size: 100px;">Hello, I'm Dustin Galichia</h1>
+                    <div class="col-lg-12 text-center justify-content-center">
+                        <h1 id="changingText" class="kaushan-script glow" style="font-size: 95px;">Hello, I'm Dustin Galichia</h1>
                         <p class="hero-disc lead mt-2 mb-4 merienda">I am a Front-End Developer based in Kansas City, Kansas and I build accessible websites</p>
                         <p class="merienda mb-4">Upgrade Incoming</p>
-                        <p class="merienda mb-4">Full Stack Developer</p>
-                        <a class="btn mb-3 mb-sm-1 me-sm-3 merienda" href="#work">Explore My Work</a>
+                        <p class="merienda mb-4 loading-text m-auto">Full Stack Developer</p>
+                        <button class="push-btn">
+                            <a class="front merienda" href="#work">Explore My Work</a>
+                        </button>
                         <a class="call-link merienda d-block d-sm-inline" href="#">Call: (913) 333 6657</a>
                     </div>
-                    
                 </div>
             </div>
         </section>
@@ -343,13 +344,27 @@
     <script>
         var audio = document.getElementById('record');
 
-function toggleAudio() {
-  if (audio.paused) {
-    audio.play();
-  } else {
-    audio.pause();
-  }
-}
-      </script>
+        function toggleAudio() {
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+        }
+    </script>
+    <script>
+        const texts = ['Konnichiwa, Galichia Dustin desu!', 
+        'Hola, soy Dustin Galichia!', "Xin chào, tôi là Dustin Galichia!", `مرحبًا، أنا داستن جاليشيا`,"Hallo, ich bin Dustin Galichia!", ];
+
+        const changingText = document.getElementById('changingText');
+
+        let index = 0;
+        function changeText() {
+        changingText.textContent = texts[index];
+        index = (index + 1) % texts.length; 
+        }
+
+        setInterval(changeText, 3500);
+    </script>
 </body>
 </html>
