@@ -19,15 +19,20 @@
 </head>
 <body>
     
-    <!-- NAVBAR -->
+    <!-- NAVBAR/SIDEBAR -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container flex-lg-column">
+
+                <!-- PROFILE IMAGE -->
                 <a class="navbar-brand mx-lg-auto mb-lg-3 rounded" href="#">
                     <span class="h3 d-block d-lg-none">Dustin Galichia</span>
                     <img class="d-none d-lg-block rounded-5" src="images/patrick.jpg" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- //PROFILE IMAGE -->
+
+                <!-- NAVBAR LINKS/DROPDOWN -->
+                <button class="navbar-toggler order-last order-lg-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>   
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -49,13 +54,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class="record-player" onclick="toggleAudio()">
+                <!-- NAVBAR LINKS/DROPDOWN -->
+
+                <!-- RECORD/AUDIO PLAYER -->
+                <div class="record-player order-2 order-lg-last" onclick="toggleAudio()">
                     <audio id="record" src="audio/Djo - End Of Beginning (Official Audio).mp3" loop></audio>
                 </div>
+                <!-- //RECORD/AUDIO PLAYER -->
+
             </div>
           </nav>
     </header>
-    <!-- //NAVBAR -->
+    <!-- //NAVBAR/SIDEBAR -->
 
     <!-- MAIN SECTION -->
     <main id="content-wrapper">
@@ -65,17 +75,28 @@
             <div class="container">
 
                 <div class="row">
+
                     <div class="col-lg-12 text-center justify-content-center">
+                        <!-- HERO INTRO/DETAIL -->
                         <h1 id="changingText" class="kaushan-script glow" style="font-size: 95px;">Hello, I'm Dustin Galichia</h1>
                         <p class="hero-disc lead mt-2 mb-4 merienda">I am a Front-End Developer based in Kansas City, Kansas and I build accessible websites</p>
+                        <!-- //HERO INTRO/DETAIL  -->
+
+                        <!-- HERO UPGRADE/LOADING BAR -->
                         <p class="merienda mb-4">Upgrade Incoming</p>
                         <p class="merienda mb-4 loading-text m-auto">Full Stack Developer</p>
+                        <!-- HERO UPGRADE/LOADING BAR -->
+
+                        <!-- HERO CTA  -->
                         <button class="push-btn">
                             <a class="front merienda" href="#work">Explore My Work</a>
                         </button>
                         <a class="call-link merienda d-block d-sm-inline" href="#">Call: (913) 333 6657</a>
+                        <!-- //HERO CTA  -->
                     </div>
+
                 </div>
+
             </div>
         </section>
         <!-- //HERO SECTION -->
@@ -84,15 +105,19 @@
         <!-- TOOLKIT SECTION -->
         <section id="toolkit" class="full-display-height px-lg-5">
             <div class="container">
-
+                <!-- TOOLKIT BREADCRUMB -->
                 <div class="row pb-4">
                     <div class="col-lg-8">
                         <h6>Toolkit</h6>
                         <h1 class="kaushan-script">My Toolkit</h1>
                     </div>
                 </div>
+                <!-- //TOOLKIT BREADCRUMB -->
 
+                <!-- TOOLKIT ITEMS -->
                 <div class="row gy-4">
+
+                    <!-- TOOLKIT ITEM -->
                     <div class="col-md-4">
                         <div class="toolkit-card p-4 rounded-4">
                             <div class="toolkit-icon-container rounded-4">
@@ -103,7 +128,9 @@
                             <a class="custom-link" href="#">Read More</a>
                         </div>
                     </div>
+                    <!-- //TOOLKIT ITEM -->
 
+                    <!-- TOOLKIT ITEM -->
                     <div class="col-md-4">
                         <div class="toolkit-card bg-light p-4 rounded-4">
                             <div class="toolkit-icon-container rounded-4">
@@ -114,7 +141,9 @@
                             <a class="custom-link" href="#">Read More</a>
                         </div>
                     </div>
+                    <!-- //TOOLKIT ITEM -->
 
+                    <!-- TOOLKIT ITEM -->
                     <div class="col-md-4">
                         <div class="toolkit-card bg-light p-4 rounded-4 ">
                             <div class="toolkit-icon-container rounded-4">
@@ -125,7 +154,9 @@
                             <a class="custom-link merienda" href="#">Read More</a>
                         </div>
                     </div>
+                    <!-- //TOOLKIT ITEM -->
 
+                    <!-- TOOLKIT ITEM -->
                     <div class="col-md-4 offset-md-2">
                         <div class="toolkit-card bg-light p-4 rounded-4">
                             <div class="toolkit-icon-container rounded-4">
@@ -136,7 +167,9 @@
                             <a class="custom-link merienda" href="#">Read More</a>
                         </div>
                     </div>
+                    <!-- //TOOLKIT ITEM -->
 
+                    <!-- TOOLKIT ITEM -->
                     <div class="col-md-4">
                         <div class="toolkit-card bg-light p-4 rounded-4">
                             <div class="toolkit-icon-container rounded-4">
@@ -149,7 +182,10 @@
                             <a class="custom-link merienda" href="#">Read More</a>
                         </div>
                     </div>
+                    <!-- //TOOLKIT ITEM -->
+
                 </div>
+                <!-- //TOOLKIT ITEMS -->
 
             </div>
         </section>
@@ -159,15 +195,19 @@
         <section id="work" class="full-display-height px-lg-5">
             <div class="container">
 
+                <!-- WORK BREADCRUMB -->
                 <div class="row pb-4">
                     <div class="col-lg-8">
                         <h6>Work</h6>
                         <h1 class="kaushan-script">My Recent Projects</h1>
                     </div>
                 </div>
+                <!-- //WORK BREADCRUMB -->
 
+                <!-- PROJECTS -->
                 <div class="row gy-4">
 
+                    <!-- PROJECT -->
                     <div class="col-md-6">
                         <div class="card rounded-4 project-card">
                             <img class="card-img-top rounded-4" src="images/White-Cat-What-meme.jpg" alt="Card image cap">
@@ -178,7 +218,9 @@
                             </div>
                         </div>
                     </div>
+                    <!-- //PROJECT -->
 
+                    <!-- PROJECT -->
                     <div class="col-md-6">
                         <div class="card rounded-4 project-card">
                             <img class="card-img-top rounded-4" src="images/confused-travolta.jpg" alt="Card image cap">
@@ -189,8 +231,10 @@
                             </div>
                           </div>
                     </div>
+                    <!-- //PROJECT -->
 
-                    <div class="col-md-6">
+                    <!-- PROJECT -->
+                    <div class="col-md-6 offset-md-3">
                         <div class="card rounded-4 project-card">
                             <img class="card-img-top rounded-4" src="images/imagination.jpg" alt="Card image cap">
                             <div class="card-body p-4">
@@ -200,6 +244,7 @@
                             </div>
                           </div>
                     </div>
+                    <!-- //PROJECT -->
 
                 </div>
 
@@ -211,19 +256,28 @@
         <section id="about" class="full-display-height px-lg-5">
             <div class="container">
 
+                <!-- ABOUT BREADCRUMB -->
                 <div class="row pb-4">
                     <div class="col-lg-8">
                         <h6>About</h6>
                         <h1 class="kaushan-script">My Education and Experiance</h1>
                     </div>
                 </div>
+                <!-- //ABOUT BREADCRUMB -->
 
+                <!-- EDUCATION AND EXPERIENCE -->
                 <div class="row gy-4">
+
+                    <!-- EDUCATION SECTION -->
                     <div class="col-lg-6">
 
+                        <!-- EDUCATION HEADER -->
                         <h3 class="mb-4 merienda">Education</h3>
+                        <!-- //EDUCATION HEADER -->
+                        
                         <div class="row gy-4 d-flex flex-column">
 
+                            <!-- EDUCATION ITEM -->
                             <div class="col-12">
                                 <div class="about-card-bg p-4 rounded-4">
                                     <h5 class="merienda">High School Diploma</h5>
@@ -231,7 +285,9 @@
                                     <p class="mb-0 merienda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eos adipisci minus doloremque ab assumenda labore nemo perspiciatis qui, dignissimos eaque, sed consectetur eveniet repellendus pariatur eius corporis quod iste.</p>
                                 </div>
                             </div>
+                            <!-- //EDUCATION ITEM -->
 
+                            <!-- EDUCATION ITEM -->
                             <div class="col-12">
                                 <div class="about-card-bg p-4 rounded-4">
                                     <h5 class="merienda">High School Diploma</h5>
@@ -239,7 +295,9 @@
                                     <p class="mb-0 merienda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eos adipisci minus doloremque ab assumenda labore nemo perspiciatis qui, dignissimos eaque, sed consectetur eveniet repellendus pariatur eius corporis quod iste.</p>
                                 </div>
                             </div>
+                            <!-- //EDUCATION ITEM -->
 
+                            <!-- EDUCATION ITEM -->
                             <div class="col-12">
                                 <div class="about-card-bg p-4 rounded-4">
                                     <h5 class="merienda">High School Diploma</h5>
@@ -247,17 +305,22 @@
                                     <p class="mb-0 merienda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eos adipisci minus doloremque ab assumenda labore nemo perspiciatis qui, dignissimos eaque, sed consectetur eveniet repellendus pariatur eius corporis quod iste.</p>
                                 </div>
                             </div>
-
+                            <!-- //EDUCATION ITEM -->
 
                         </div>
                     </div>
+                    <!-- //EDUCATION SECTION -->
 
-
+                    <!-- WORK SECTION -->
                     <div class="col">
 
+                        <!-- EXPERIENCE HEADER -->
                         <h3 class="mb-4 merienda">Experience</h3>
+                        <!-- //EXPERIENCE HEADER -->
+
                         <div class="row gy-4 d-flex flex-column">
 
+                            <!-- EXPERIENCE -->
                             <div class="col-12">
                                 <div class="about-card-bg p-4 rounded-4">
                                     <h5 class="merienda">High School Diploma</h5>
@@ -265,7 +328,9 @@
                                     <p class="mb-0 merienda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eos adipisci minus doloremque ab assumenda labore nemo perspiciatis qui, dignissimos eaque, sed consectetur eveniet repellendus pariatur eius corporis quod iste.</p>
                                 </div>
                             </div>
+                            <!-- //EXPERIENCE -->
 
+                            <!-- EXPERIENCE -->
                             <div class="col-12">
                                 <div class="about-card-bg p-4 rounded-4">
                                     <h5 class="merienda">High School Diploma</h5>
@@ -273,7 +338,9 @@
                                     <p class="mb-0 merienda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eos adipisci minus doloremque ab assumenda labore nemo perspiciatis qui, dignissimos eaque, sed consectetur eveniet repellendus pariatur eius corporis quod iste.</p>
                                 </div>
                             </div>
+                            <!-- //EXPERIENCE -->
 
+                            <!-- EXPERIENCE -->
                             <div class="col-12">
                                 <div class="about-card-bg p-4 rounded-4">
                                     <h5 class="merienda">High School Diploma</h5>
@@ -281,12 +348,15 @@
                                     <p class="mb-0 merienda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eos adipisci minus doloremque ab assumenda labore nemo perspiciatis qui, dignissimos eaque, sed consectetur eveniet repellendus pariatur eius corporis quod iste.</p>
                                 </div>
                             </div>
+                            <!-- //EXPERIENCE -->
 
 
                         </div>
                     </div>
+                    <!-- //WORK SECTION -->
                 
                 </div>
+                <!-- EDUCATION AND EXPERIENCE -->
 
             </div>
         </section>
@@ -295,42 +365,58 @@
         <!-- CONTACT SECTION-->
         <section id="contact" class="full-display-height px-lg-5">
             <div class="container">
-
+                
                 <div class="row justify-content-center">
+                    <!-- CONTACT BREADCRUMB-->
                     <div class="col-lg-8 pb-4">
                         <h6 class="text-start">Contact</h6>
                         <h1 class="text-center merienda">Lets Start A Converstation!</h1>
                     </div>
+                    <!-- //CONTACT BREADCRUMB-->
                     
+                    <!-- CONTACT FORUM-->
                     <div class="col-lg-8">
                         <form action="#" class="row g-lg-3 gy-3">
+
+                            <!-- NAME -->
                             <div class="form-group col-md-6">
                               <label for="inputName" class="merienda">Name:</label>
                               <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Enter name">
                             </div>
+                            <!-- //NAME -->
 
+                            <!-- EMAIL -->
                             <div class="form-group col-md-6">
                                 <label for="inputEmail" class="merienda">Email:</label>
                                 <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
+                            <!-- //EMAIL -->
 
-
+                            <!-- SUBJECT -->
                             <div class="form-group col-12">
                                 <label for="inputSubject" class="merienda">Subject:</label>
                                 <input type="text" class="form-control" id="inputSubject" aria-describedby="subjectHelp" placeholder="Enter subject">
                             </div>
+                            <!-- //SUBJECT -->
 
+                            <!-- INPUT -->
                             <div class="form-group col-12">
                                 <label for="inputMessage" class="merienda">Message</label>
                                 <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
                             </div>
+                            <!-- //INPUT -->
+
+                            <!-- SUBMIT BUTTON -->
                             <div class="form-group col-12 d-grid">
                                 <button type="submit" class="btn btn-primary merienda">Contact Me</button>
                             </div>
+                            <!-- //SUBMIT BUTTON -->
+
                         </form>
                     </div>
-
+                    <!-- //CONTACT FORUM-->
+                    
                 </div>
             </div>
         </section>
@@ -355,7 +441,8 @@
             </div>
         </footer>
         <!-- //FOOTER SECTION-->
-    </main>     
+    </main>
+    <!-- //MAIN SECTION -->  
 
 
     <!-- Bootstrap JavaScript plugins -->
