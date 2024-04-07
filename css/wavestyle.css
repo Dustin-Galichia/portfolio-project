@@ -65,6 +65,10 @@ img {
 .project-card {
     background-image: linear-gradient(to right top, #74797a, #5b6b70, #435c69, #2e4c62, #1e3c5b);
     box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
+    transition: all .15s linear;
+}
+.project-card:hover{
+    scale: 1.03;
 }
 
 
@@ -84,6 +88,11 @@ img {
 .navbar {
     background-color: #0cbaba;
     background-image: linear-gradient(to right top, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8)), url(../images/great-wave-kanagawa.jpg);
+    transition: box-shadow .15s linear .1s;
+}
+.navbar:hover {
+    box-shadow: 12px 10px 14px 3px rgba(30,60,91,0.84);
+
 }
 
 @media (min-width: 990px) {
@@ -218,14 +227,27 @@ ul {
 }
 .toolkit-card {
     background-image: linear-gradient(to right top, #74797a, #5b6b70, #435c69, #2e4c62, #1e3c5b);
+    transition: box-shadow .15s linear;
+}
+.toolkit-card:hover {
     box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
 }
 /* //TOOLKIT */
 
 
-/* CONTACT CENTER */
+/* CONTACT SECTION */
+.shadow {
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
 
-/* //CONTACT CENTER */
+}
+.sub-btn {
+    border: none;
+
+}
+.sub-btn:hover {
+    color: blue;
+}
+/* //CONTACT SECTON */
 
 /* FOOTER SECTION */
 .social-icons a {
