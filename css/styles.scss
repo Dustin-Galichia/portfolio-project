@@ -95,6 +95,18 @@ img {
 
 }
 
+@media (max-width: 989px) {
+    .hero {
+        margin-top: 12rem;
+    }
+    .changingText {
+        font-size: 4rem;
+    }
+    .hero-disc {
+        font-size: 1.5rem;
+    }
+}
+
 @media (min-width: 990px) {
     .navbar {
         min-height: 100vh;
@@ -102,6 +114,12 @@ img {
         background: linear-gradient(to right top, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8)), url(../images/great-wave-kanagawa.jpg);
         background-position: center;
         background-size: cover;
+    }
+    .changingText {
+        font-size: 6rem;
+    }
+    .hero-disc {
+        font-size: 2.2rem;
     }
     
     .navbar-brand img {
@@ -175,7 +193,7 @@ ul {
 
 .loading-text {
     display: block;
-    width: 500px;
+    width: 100%;
     justify-content: center;
     position: relative;
     z-index: 2;
